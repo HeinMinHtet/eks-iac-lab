@@ -1,0 +1,6 @@
+# This file is a placeholder for the Istio installation manifest.
+# To get the Istio installation manifest, you can use istioctl:
+#
+# 1. Download and install istioctl: https://istio.io/latest/docs/setup/getting-started/#download
+# 2. Generate the manifest for the 'demo' profile:
+#    istioctl manifest generate --set profile=demo > k8s/istio/install.yaml

@@ -1,0 +1,19 @@
+# This file is a placeholder for the Istio Ingress Gateway configuration.
+# This gateway exposes the Bookinfo application's productpage service.
+# You can apply this file after Istio and the Bookinfo application are deployed.
+#
+# apiVersion: networking.istio.io/v1alpha3
+# kind: Gateway
+# metadata:
+#   name: bookinfo-gateway
+#   namespace: bookinfo
+# spec:
+#   selector:
+#     istio: ingressgateway # use Istio default controller
+#   servers:
+#   - port:
+#       number: 80
+#       name: http
+#       protocol: HTTP
+#     hosts:
+#     - "*"

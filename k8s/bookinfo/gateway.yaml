@@ -1,0 +1,9 @@
+# This file is a placeholder for the Bookinfo Gateway and VirtualService.
+# You can get the manifest from the Istio installation directory:
+#
+# 1. Download and install Istio: https://istio.io/latest/docs/setup/getting-started/#download
+# 2. The bookinfo-gateway.yaml file is in the samples/bookinfo/networking/ directory.
+#    You can copy it to this directory.
+#
+# Alternatively, you can apply it directly from the Istio repository:
+# kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/bookinfo/networking/bookinfo-gateway.yaml -n bookinfo
